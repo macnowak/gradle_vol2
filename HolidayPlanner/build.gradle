@@ -16,9 +16,6 @@ apply plugin: 'war'
 apply plugin: 'checkstyle'
 apply plugin: 'net.researchgate.release'
 
-group 'pl.decerto.workshop'
-version '0.0.1-SNAPSHOT'
-
 war {
 	baseName = 'holiday-planner'
 }
